@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Math {
+    public class Math {
 
         int A;
         int B;
@@ -28,14 +28,16 @@ namespace ConsoleApplication1
     }
 
 
-
+    class Name {
+        private string noname;
+    }
 
     class Program
     {
         static void Main()
         {
 
-            Math A = new Math();
+          
 
             
             Console.ReadKey();
